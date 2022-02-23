@@ -9,7 +9,7 @@ public class CalculateAgeOfPerson {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		//Age of the person
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the DOB year");
 		int year=sc.nextInt();
