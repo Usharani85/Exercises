@@ -8,7 +8,7 @@ public class ValidatePolidrome {
 		
 		String tempVar=givenString.replaceAll("\\s", "").toLowerCase();
 		
-		return IntStream.range(0, tempVar.length()/2).noneMatch(i->tempVar.charAt(i)!=tempVar.charAt(tempVar.length()-i-1));
+		return IntStream.range(0, tempVar.length()).noneMatch(i->tempVar.charAt(i)!=tempVar.charAt(tempVar.length()-i-1));
 	}
 
 	public static void main(String[] args) {
